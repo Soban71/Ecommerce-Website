@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container .loginForm{
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.container .loginForm form{
+  background-color: #3C6255;
+  display: flex;
+  border-radius: 40px;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  width: 130%;
+  padding: 20px 40px;
+}
+
+.container .loginForm form h3{
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #FFFBE9;
+  opacity: .7;
+  letter-spacing: .1rem;
+
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  opacity: .3;
+}
+
+.container .loginForm form label{
+  margin-bottom: 8px;
+  color:azure;
+  opacity: .5;
+}
+
+.container .loginForm form .textInput{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 10px;
+}
+
+.container .loginForm form .button{
+  width: auto;
+  padding: 8px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #61876E;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.container .loginForm form .button:hover{
+  background-color: aliceblue;
+  color: rgb(66, 61, 61);
+}

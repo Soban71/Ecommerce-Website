@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&display=swap');
+
+ body{
+  background-color: black;
+ }
+ 
+
+  .DeliveryDetailHeading{
+    text-align:center;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  input{
+    display: block;
+    margin:auto;
+    width: 40%;
+    border: none;
+    padding: 20px;
+    
+  }
+  label {
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+   margin-left: 13rem;
+   margin-top: 10px;
+   color: black;
+  
+  }
+.buttonDelivery{
+ width: 15%;
+ background-color: #3C6255;
+ color: white;
+ font-size: 18px;
+ border: none;
+}
+.buttonDelivery:hover{
+background-color: transparent;
+border: 1px solid white;
+transition: .6s ease;
+}
+  

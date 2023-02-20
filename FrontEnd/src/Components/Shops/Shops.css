@@ -1,0 +1,41 @@
+.productsWrapper{
+    padding: 0% 3%;
+}
+.productsWrapper h4{
+    font-size: 14px;
+    color: #1a1a1a;
+    
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    opacity: .9;
+    letter-spacing: 1px;
+
+} 
+.productsWrapper h5{
+padding-top: 3px;
+font-size: 15px;
+font-weight: 700;
+color: #088178;
+}
+
+.productsWrapper button{
+    width: 40px;
+height: 40px;
+line-height: 40px;
+border: 1px solid #cce7d0;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #e8f6ea;
+position: absolute;
+color: #088178;
+bottom: -30px;
+right: 10px;
+}
+.productsWrapper button:hover{
+
+    background-color: #c4dac8;
+    color: #088178;
+}

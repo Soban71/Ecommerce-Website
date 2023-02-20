@@ -1,0 +1,17 @@
+.cartCard img{
+    height: 60px;
+    margin-right: 480px;
+}
+
+
+@media (max-width:700px) {
+    .cartCard img{
+        height: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .cartCard{
+        padding: 0;
+        margin-left: 0;
+    }
+}
